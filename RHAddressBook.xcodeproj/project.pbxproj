@@ -63,6 +63,7 @@
 		13C9D524146C931400327D15 /* RHRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C9D522146C931400327D15 /* RHRecord.m */; };
 		13C9D527146CA10D00327D15 /* RHMultiValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C9D525146CA10D00327D15 /* RHMultiValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13C9D528146CA10D00327D15 /* RHMultiValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C9D526146CA10D00327D15 /* RHMultiValue.m */; };
+		287527B9163B395900195E7D /* RHAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C9D508146C5A8600327D15 /* RHAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -341,6 +342,7 @@
 				132DF84914F32AB000513B38 /* RHAddressBook_Private.h in Headers */,
 				132DF84C14F34E3200513B38 /* RHRecord_Private.h in Headers */,
 				1371E4BB151B1B5400C0DF49 /* RHPersonLabels.h in Headers */,
+				287527B9163B395900195E7D /* RHAddressBook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

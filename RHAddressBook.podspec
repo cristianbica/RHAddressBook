@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/heardrwt/RHAddressBook"
   s.license      = { :type => 'Modified BSD License', :file => 'LICENSE' }
   s.author       = { "Richard Heard" => "" }
-  s.source       = { :git => "https://github.com/cristianbica/RHAddressBook.git", :commit => "18ae164f1ed999c408b8d40ee3588a2ee6608203" }
+  s.source       = { :git => "https://github.com/cristianbica/RHAddressBook.git", :branch => "master" }
   s.platform     = :ios, '4.0'
   s.source_files = 'build/include/RHAddressBook/*.h', 'build/include/RHAddressBook/Private/*.h'
   s.preserve_paths = 'build/libRHAddressBook.a'
