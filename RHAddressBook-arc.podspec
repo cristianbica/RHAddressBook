@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   s.author       = { "Richard Heard" => "" }
   s.source       = { :git => "https://github.com/cristianbica/RHAddressBook.git", :branch => "master" }
   s.platform     = :ios, '4.0'
-  s.source_files = 'build-arc/include/RHAddressBook/*.h', 'build-arc/include/RHAddressBook/Private/*.h'
-  s.preserve_paths = 'build-arc/libRHAddressBook.a'
+  s.source_files = 'lib-arc/include/RHAddressBook/*.h', 'lib-arc/include/RHAddressBook/Private/*.h'
+  s.preserve_paths = 'lib-arc/libRHAddressBook.a'
   s.framework  = 'CoreLocation', 'AddressBook', 'Foundation'
   s.library   = 'RHAddressBook'
-  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/RHAddressBook/build-arc"' }
+  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/RHAddressBook/lib-arc"' }
   s.requires_arc = true
 end
